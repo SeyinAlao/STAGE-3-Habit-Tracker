@@ -71,7 +71,6 @@ export default function HabitCard({ habit, onComplete, onEdit, onDelete }: Habit
                   color: streak > 0 ? '#065f46' : '#94a3b8',
                 }}
               >
-                {/* CHANGED THIS LINE: Always renders the streak number */}
                 {streak === 1 ? '1 day streak' : `${streak} days streak`}
               </span>
             </div>
