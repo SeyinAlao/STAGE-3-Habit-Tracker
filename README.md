@@ -103,6 +103,7 @@ npm run test:e2e
 <img width="914" height="448" alt="Screenshot 2026-04-29 123918" src="https://github.com/user-attachments/assets/03fa6c7c-f7f8-4b93-8773-0db9206368ff" />
 
 
+
 > **Note for E2E tests:** To properly test the Service Worker and offline capabilities, run `npm run build` followed by `npm run start` in a separate terminal before running `npm run test:e2e`.
 
 ---
